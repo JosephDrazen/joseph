@@ -63,10 +63,19 @@ body {
   color: white;
 }
 
-.body-text {
+#body-text {
   text-align: left;
   font-size: 18px;
   color: white;
+}
+
+.project-body-link:visited {
+  color: inherit;
+}
+
+.project-body-link:hover {
+  background-color: grey;
+  /* padding-left: 5px; */
 }
 
 #intro {
@@ -104,10 +113,54 @@ body {
 /* footer styling  */
 .footer-container {
   position: relative;
-  color: white;
-  font-size: 12px;
   bottom: 0;
   width: 100%;
   height: auto;
 }
+
+.footer-block {
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-list {
+  display: inline-block;
+  border-right: 1px solid white;
+  margin-right: 10px;
+}
+
+.footer-text {
+  color: #737373;
+  position: static;
+  font-size: 12px;
+}
+
+a.footer-links:link {
+  color: inherit;
+  margin-right: 10px;
+}
+
+a.footer-links:visited {
+  color: inherit;
+}
+
+a.footer-links:hover {
+  font-size: 125%;
+}
+
+.footer-list:last-child {
+  border-right: 0;
+}
+
 /* footer styling ends  */
