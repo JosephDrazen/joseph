@@ -34,3 +34,34 @@ body {
   font-size: 18px;
   color: white;
 }
+
+#intro {
+  white-space: nowrap;
+  color: white;
+  border-right: solid 3px white;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+  animation: animated-text 3s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+  width: 480px;
+  vertical-align: top;
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 270px;
+  }
+}
+
+@keyframes animated-cursor{
+  from {
+    border-right-color: grey;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
