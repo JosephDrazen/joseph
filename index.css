@@ -15,6 +15,11 @@ body {
   position: relative;
 }
 
+#content-block {
+  padding-bottom: 2rem;
+}
+
+/* header styling  */
 .navbar-container {
     flex: 0 auto;
     margin: -20px;
@@ -41,6 +46,9 @@ body {
 .header-container {
 }
 
+/* header styling ends */
+
+/* body styling  */
 .projects-container {
 }
 
@@ -91,3 +99,15 @@ body {
     border-right-color: transparent;
   }
 }
+
+/* body styling ends */
+/* footer styling  */
+.footer-container {
+  position: relative;
+  color: white;
+  font-size: 12px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+/* footer styling ends  */
