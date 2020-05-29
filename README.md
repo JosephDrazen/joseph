@@ -1,2 +1,2 @@
 # portfolio
- Portfolio Website with React 
+ Portfolio Website with Js, CSS, HTML 
