@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
   font-family: 'DM Mono', monospace;
@@ -7,18 +8,43 @@ body {
   margin: 0;
 }
 
-.header-container {
+#container {
   width: 600px;
   height: auto;
   margin: 100px auto;
   position: relative;
 }
 
+.navbar-container {
+    flex: 0 auto;
+    margin: -20px;
+    width: 50px;
+    position: relative;
+    margin: 100px auto;
+    background-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.site-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-container {
+}
+
 .projects-container {
-  width: 600px;
-  height: auto;
-  margin: 100px auto;
-  position: relative;
+}
+
+.codepens-container {
 }
 
 .body-subtitle {
