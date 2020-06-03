@@ -156,7 +156,7 @@ a.footer-links:visited {
 }
 
 a.footer-links:hover {
-  font-size: 125%;
+  color: white;
 }
 
 .footer-list:last-child {
