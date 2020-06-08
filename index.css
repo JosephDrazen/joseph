@@ -100,7 +100,7 @@ body {
   }
 }
 
-@keyframes animated-cursor{
+@keyframes animated-cursor {
   from {
     border-right-color: grey;
   }
