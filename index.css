@@ -173,3 +173,9 @@ a.footer-links:hover {
     position: relative;
   }
 }
+
+
+.fa-github{
+  font-size: 24px;
+  color: white;
+}
