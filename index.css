@@ -159,6 +159,10 @@ a.footer-links:hover {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .footer-list:last-child {
   border-right: 0;
 }
