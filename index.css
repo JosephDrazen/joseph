@@ -101,6 +101,14 @@ a.intro-link:hover {
   color: grey;
 }
 
+a:link {
+  color: inherit;
+}
+
+a:active {
+  color:inherit;
+}
+
 @keyframes animated-text {
   from {
     width: 0;
