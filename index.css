@@ -89,15 +89,15 @@ code {
   vertical-align: top;
 }
 
-a.intro-link {
+.intro-link {
   text-decoration: none;
 }
 
-a.intro-link:visited {
+.intro-link:visited {
   color: inherit;
 }
 
-a.intro-link:hover {
+.intro-link:hover {
   color: grey;
 }
 
