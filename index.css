@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #111211;
-  letter-spacing: 1px;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'DM Mono', sans-serif;
+  background-color: #111111;
+  color: white;
+  letter-spacing: .5px;
   padding: 0;
   margin: 0;
 }
@@ -23,40 +25,27 @@ body {
 
 /* header styling  */
 .navbar-container {
-    flex: 0 auto;
-    /* margin: -20px; */
-    width: 50px;
-    position: relative;
-    margin: 100px auto;
-    background-color: transparent;
-    font-family: 'DM Sans', sans-serif;
+  flex: 0 auto;
+  width: 50px;
+  position: relative;
+  margin: 100px auto;
+  background-color: transparent;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .site-title {
-    /* margin-top: 12px; */
-    /* margin-bottom: 12px; */
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fff;
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.header-container {
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* header styling ends */
-
 /* body styling  */
-.projects-container {
-}
-
-.codepens-container {
-}
-
 .body-subtitle {
   margin: 0;
   padding: 0;
@@ -69,7 +58,7 @@ body {
 #body-text {
   text-align: left;
   font-size: 16px;
-  color: white;
+
 }
 
 .project-body-link:visited {
@@ -79,6 +68,12 @@ body {
 .project-body-link:hover {
   background-color: grey;
   padding-left: 5px;
+}
+
+code {
+  padding: 1px 5px;
+  border-radius: 3px;
+  background-color: #2f525c;   /* dark blue */
 }
 
 #intro {
@@ -92,6 +87,18 @@ body {
   animated-cursor 600ms steps(29,end) infinite;
   width: 480px;
   vertical-align: top;
+}
+
+a.intro-link {
+  text-decoration: none;
+}
+
+a.intro-link:visited {
+  color: inherit;
+}
+
+a.intro-link:hover {
+  color: grey;
 }
 
 @keyframes animated-text {
@@ -162,25 +169,12 @@ a.footer-links:hover {
   color: white;
 }
 
-.intro-link {
-  text-decoration: none;
-}
 .footer-list:last-child {
   border-right: 0;
 }
 
 /* footer styling ends  */
-
-@media(min-width: 768px) {
-  #container {
-    width: 700px;
-    height: auto;
-    margin: 100px auto;
-    position: relative;
-  }
-}
-
-
+/* logos styling ends  */
 .fa-github {
   font-size: 18px;
   color: white;
@@ -190,3 +184,24 @@ a.footer-links:hover {
   font-size: 18px;
   color: white;
 }
+
+.fa-github:hover {
+  color: grey;
+}
+
+.fa-linkedin-in:hover {
+  color: grey;
+}
+
+
+/* logos styling ends  */
+/* desktop styling begins  */
+@media(min-width: 768px) {
+  #container {
+    width: 500px;
+    height: auto;
+    margin: 100px auto;
+    position: relative;
+  }
+}
+/* desktop styling ends  */
