@@ -17,6 +17,7 @@ body {
   height: auto;
   margin: 100px auto;
   position: relative;
+  font-size: 30px;
 }
 
 #content-block {
@@ -50,14 +51,14 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 5px;
-  font-size: 30px;
+  font-size: 34px;
   text-align: left;
   color: white;
 }
 
 #body-text {
   text-align: left;
-  font-size: 24px;
+  font-size: 30px;
 
 }
 
@@ -80,7 +81,7 @@ code {
   white-space: nowrap;
   color: white;
   border-right: solid 3px white;
-  font-size: 16px;
+  font-size: 30px;
   overflow: hidden;
   position: relative;
   animation: animated-text 3s steps(29,end) .5s 1 normal both,
@@ -161,7 +162,7 @@ ul {
 .footer-text {
   color: #737373;
   position: static;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 a.footer-links:link {
@@ -184,12 +185,12 @@ a.footer-links:hover {
 /* footer styling ends  */
 /* logos styling ends  */
 .fa-github {
-  font-size: 18px;
+  font-size: 28px;
   color: white;
 }
 
 .fa-linkedin-in {
-  font-size: 18px;
+  font-size: 28px;
   color: white;
 }
 
@@ -221,9 +222,28 @@ a.footer-links:hover {
     font-size: 24px;
   }
 
+  #intro {
+    font-size: 16px;
+  }
+
+  #container {
+    font-size: 16px;
+  }
+
   #body-text {
     text-align: left;
     font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+  .fa-github {
+    font-size: 18px;
+  }
+
+  .fa-linkedin-in {
+    font-size: 18px;
   }
 }
 /* desktop styling ends  */
