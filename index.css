@@ -57,7 +57,7 @@ body {
 
 #body-text {
   text-align: left;
-  font-size: 16px;
+  font-size: 24px;
 
 }
 
@@ -219,6 +219,11 @@ a.footer-links:hover {
 
   .body-title {
     font-size: 24px;
+  }
+
+  #body-text {
+    text-align: left;
+    font-size: 16px;
   }
 }
 /* desktop styling ends  */
