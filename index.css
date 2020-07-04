@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 
 body {
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'DM Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   background-color: #111111;
   color: white;
-  letter-spacing: .5px;
+  letter-spacing: .22px;
   padding: 0;
   margin: 0;
 }
 
 #container {
-  width: 400px;
+  width: 450px;
   height: auto;
   margin: 100px auto;
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #content-block {
@@ -51,14 +50,14 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 5px;
-  font-size: 24px;
+  font-size: 22px;
   text-align: left;
   color: white;
 }
 
 #body-text {
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 
@@ -78,13 +77,15 @@ code {
 }
 
 #intro {
+  display: inline-block;
   white-space: nowrap;
-  color: white;
+  color: #fff;
   border-right: solid 3px white;
-  font-size: 16px;
+  font-size: 14px;
   overflow: hidden;
+  margin: 0 auto;
   position: relative;
-  animation: animated-text 3s steps(29,end) .5s 1 normal both,
+  animation: animated-text 3s steps(30,end) .5s 1 normal both,
   animated-cursor 600ms steps(29,end) infinite;
   width: 480px;
   vertical-align: top;
@@ -115,7 +116,7 @@ a:active {
     width: 0;
   }
   to {
-    width: 310px;
+    width: 268px;
   }
 }
 
@@ -135,6 +136,7 @@ a:active {
   bottom: 0;
   width: 100%;
   height: auto;
+  padding-top: 50px;
 }
 
 .footer-block {
@@ -204,12 +206,13 @@ a.footer-links:hover {
 
 
 /* logos styling ends  */
-/* desktop styling begins  */
-@media(min-width: 768px) {
+/* laptop styling begins  */
+@media(min-width: 768px) { /* 768px (small) */
   #container {
-    width: 500px;
+    width: 670px;
     height: auto;
-    margin: 100px auto;
+    margin: 50px 0 0 400px;
+    /* margin: 100px auto; */
     position: relative;
 
   }
@@ -244,5 +247,33 @@ a.footer-links:hover {
   .fa-linkedin-in {
     font-size: 18px;
   }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 306px;
+    }
+  }
 }
-/* desktop styling ends  */
+/* laptop styling ends  */
+/* desktop-L styling begins  */
+@media(min-width: 1920px) { /* 1920px (large)*/
+  #container {
+    width: 670px;
+    height: auto;
+    margin: 50px 0 0 700px;
+    /* margin: 100px auto; */
+    position: relative;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 306px;
+    }
+  }
+/* desktop-L styling ends  */
