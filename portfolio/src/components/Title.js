@@ -20,8 +20,7 @@ const useStyles = makeStyles({
 });
 
 /*
-    SiteTitle()
-    props: none, 
+    function: SiteTitle
     purpose: renders the title logo component
 */
 export default function SiteTitle() {

@@ -4,18 +4,20 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import SiteTitle from './components/Title.js'
 import ReactMarkdown from 'react-markdown';
 import WelcomeMd from './content/welcome.md'
+import Projects from "./components/ProjectCard.js"
 
 class App extends React.Component {
 
   // nice grey : #1a202c
 
   constructor(props) {
-    super(props);
+    super();
     this.state = {content: ''}
   }
 
   componentWillMount() {
-    fetch(WelcomeMd).then((response) => response.text()).then((text) => {
+    fetch(WelcomeMd).then((response) => response.text())
+    .then((text) => {
       this.setState({ content: text })
       console.log(this.state.content)
     })
@@ -48,6 +50,9 @@ class App extends React.Component {
           style={{ alignItems: 'center', background: '#A8D0E6' }}>
             <div style={{color:'#424242', textAlign: 'left', marginLeft: 300}} >
             <ReactMarkdown source={this.state.content}/>
+            </div>
+            <div>
+              <Projects />
             </div>
         </ParallaxLayer>
 
