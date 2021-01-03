@@ -1,4 +1,4 @@
-{  
+{
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
