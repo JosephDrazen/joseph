@@ -16,6 +16,7 @@ const Awards = ({ offset, factor = 2 }: { offset: number; factor?: number }) => 
       factor={factor}
     />
     <Content speed={0.4} offset={offset + 0.2} factor={factor}>
+      
       <Inner>
         <div
           sx={{

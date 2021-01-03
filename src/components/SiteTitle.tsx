@@ -2,12 +2,8 @@ import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import Grid from '@material-ui/core/Grid';
-
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -38,6 +34,15 @@ const useStyles = makeStyles((theme: Theme) =>
       lineHeight: 2.8, 
       fontSize:  18, 
       textAlign: 'center',
+      color: '#fff'
+    },
+    buttons: {
+      backgroundColor: '#141822',
+      color: '#fff',
+      "&:hover": {
+        color: `#141822`,
+        backgroundColor: `#4DA8DA`,
+      },
     }
   }),
 );
@@ -49,7 +54,7 @@ export default function SiteTitle() {
       <AppBar position="sticky"
       style={{background:'inherit'}}>
         <Toolbar>
-          <Grid container xs={5}
+          <Grid container xs={6}
           alignItems='center'
           justify='center'
           style={{
@@ -60,10 +65,10 @@ export default function SiteTitle() {
             container 
             direction='row'>
               <Grid item xs={2} className={classes.siteNav}>
-                About
+                <Button className={classes.buttons} href="#about" variant="contained">About</Button>
               </Grid>
               <Grid item xs={2} className={classes.siteNav}>
-                Projects
+              <Button className={classes.buttons}  href="#projects" variant="contained">Projects</Button>
               </Grid>
               <Grid item style={{margin: '0 auto'}}
               className={classes.siteTitle}>
@@ -71,10 +76,10 @@ export default function SiteTitle() {
               </Grid>
               <Grid 
               item xs={2} className={classes.siteNav}>
-                Awards
+              <Button className={classes.buttons}  href="#awards" variant="contained">Awards</Button>
               </Grid>
               <Grid item xs={2} className={classes.siteNav}>
-                Testimonies
+              <Button className={classes.buttons} href="#testimony" variant="contained">Testimonies</Button>
               </Grid>
             </Grid>
           </Grid>

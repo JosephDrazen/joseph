@@ -40,8 +40,11 @@ const Hero = () => {
         <Grid item xs={8}>
           <ArrowDownwardIcon style={{color: '#fff', fontSize: 48}}/>
         </Grid>
+
       </Grid>
+      <div id='about'/>
     </ParallaxLayer>
+
   </React.Fragment>
   )
 }

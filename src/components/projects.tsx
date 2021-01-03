@@ -16,6 +16,8 @@ const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) =
       factor={factor}
     />
     <Content speed={0.4} offset={offset + 0.2} factor={factor}>
+    <div id='awards'/>
+
       <Inner>
         <div
           sx={{
@@ -28,6 +30,7 @@ const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) =
           <ProjectsMDX />
         </div>
       </Inner>
+      
     </Content>
   </div>
 )

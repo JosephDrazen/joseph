@@ -22,23 +22,22 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       offset={offset}
       factor={factor}
     />
-  
     <Content speed={0.4} offset={offset} factor={factor}>
-      <Inner>
-        <AboutMDX />
-      <Typography variant='h5'>
-      Spot me at CU Blueprint as a Product Designer. I like to tinker with code on  
-      <IconButton color='inherit' style={{padding: 8}} href='https://github.com/JosephDrazen' target='_blank'>
-        <GitHubIcon/>
-      </IconButton>, 
-      and you can chat with me on
-      <IconButton color='inherit' style={{padding: 8}} href='https://www.linkedin.com/in/josephmalovic/' target='_blank'>
-        <LinkedInIcon/>
-      </IconButton>, 
-      If you're an employer reading this site it is very likely I have 
-      learned your values so I thought you'd be interested in learning about mine too:
-      </Typography>
-
+        <Inner>
+        <div id='projects'/>
+          <AboutMDX />
+        <Typography variant='h5'>
+        Spot me at CU Blueprint as a Product Designer. I like to tinker with code on  
+        <IconButton color='inherit' style={{padding: 8}} href='https://github.com/JosephDrazen' target='_blank'>
+          <GitHubIcon/>
+        </IconButton>, 
+        and you can chat with me on
+        <IconButton color='inherit' style={{padding: 8}} href='https://www.linkedin.com/in/josephmalovic/' target='_blank'>
+          <LinkedInIcon/>
+        </IconButton>, 
+        If you're an employer reading this site it is very likely I have 
+        learned your values so I thought you'd be interested in learning about mine too:
+        </Typography>
       </Inner>
     </Content>
   </div>
