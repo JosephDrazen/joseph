@@ -4,9 +4,9 @@ import Divider from "../elements/divider"
 import Inner from "../elements/inner"
 import Content from "../elements/content"
 // @ts-ignore
-import ProjectsMDX from "../sections/projects"
+import TestimonyMDX from "../sections/testimony"
 
-const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
+const Testimony = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
       bg="#000"
@@ -27,7 +27,7 @@ const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) =
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
         >
-          <ProjectsMDX />
+          <TestimonyMDX />
         </div>
       </Inner>
       
@@ -35,4 +35,4 @@ const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) =
   </div>
 )
 
-export default Projects
+export default Testimony
