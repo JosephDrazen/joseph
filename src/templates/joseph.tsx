@@ -5,7 +5,7 @@ import Hero from "../components/hero"
 import Projects from "../components/projects"
 import Awards from "../components/awards"
 import About from "../components/about"
-import Testimony from "../components/testimony"
+import Testimonies from "../components/testimony"
 import Contact from "../components/contact"
 
 const Joseph = () => (
@@ -15,7 +15,7 @@ const Joseph = () => (
       <About offset={1} factor={0} />
       <Projects offset={2} factor={0} />
       <Awards offset={3} factor={0}/>
-      <Testimony offset={4} factor={0}/>
+      <Testimonies offset={4} factor={0}/>
     </Parallax>
   </Layout>
 )

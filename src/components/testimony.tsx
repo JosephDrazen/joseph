@@ -6,7 +6,7 @@ import Content from "../elements/content"
 // @ts-ignore
 import TestimonyMDX from "../sections/testimony"
 
-const Testimony = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
+const Testimonies = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
       bg="#000"
@@ -35,4 +35,4 @@ const Testimony = ({ offset, factor = 3 }: { offset: number; factor?: number }) 
   </div>
 )
 
-export default Testimony
+export default Testimonies

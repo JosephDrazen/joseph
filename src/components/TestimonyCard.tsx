@@ -7,18 +7,19 @@ import IconButton from '@material-ui/core/IconButton';
 
 
 type TestimonyProps = {
-  link: string
-  title: string
+  name: string
+  role: string
   children: React.ReactNode
 }
 
-const Testimony = ({ link, title, children }: TestimonyProps) => {
+const TestimonyCard = ({ name, role, children }: TestimonyProps) => {
   return (
       <div>
-          {link}
-          {title}
+          <h1>{name}</h1>
+          <h2>{role}</h2>
+          <p>{children}</p>
       </div>  
   );
 }
 
-export default Testimony;
+export default TestimonyCard;
