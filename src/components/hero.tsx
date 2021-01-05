@@ -42,7 +42,6 @@ const Hero = () => {
         </Grid>
 
       </Grid>
-      <div id='about'/>
     </ParallaxLayer>
 
   </React.Fragment>

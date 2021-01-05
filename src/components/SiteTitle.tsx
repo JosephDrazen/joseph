@@ -51,7 +51,7 @@ export default function SiteTitle() {
   const classes = useStyles();
   return (
     <div  className={classes.root}>
-      <AppBar position="sticky"
+      <AppBar position="sticky" //fixed
       style={{background:'inherit'}}>
         <Toolbar>
           <Grid container xs={6}

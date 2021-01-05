@@ -12,6 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import AboutMDX from "../sections/about"
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Values from './values'
 
 const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -34,10 +35,12 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         and you can chat with me on
         <IconButton color='inherit' style={{padding: 8}} href='https://www.linkedin.com/in/josephmalovic/' target='_blank'>
           <LinkedInIcon/>
-        </IconButton>, 
+        </IconButton>.
+        In the past I've been a QA Engineer at SurveyMonkey, Enterprise Sales at Shopify, and eCommerce Coordinator at Best Buy.
         If you're an employer reading this site it is very likely I have 
         learned your values so I thought you'd be interested in learning about mine too:
         </Typography>
+        <Values />
       </Inner>
     </Content>
   </div>

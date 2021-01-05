@@ -2,7 +2,7 @@ import React from "react"
 import AwardsCard from "../components/AwardsCard"
 import ProjectCard from "../components/ProjectCard"
 import TestimonyCard from "../components/TestimonyCard"
-
+import ValuesCard from "../components/ValuesCard"
 
 const components = {
   ProjectCard: ({ link, title, children }) => (
@@ -19,6 +19,11 @@ const components = {
     <TestimonyCard name={name} role={role}>
       {children}
     </TestimonyCard>
+  ),
+  ValuesCard: ({ title, imga, children }) => (
+    <ValuesCard title={title} imga={imga}>
+      {children}
+    </ValuesCard>
   ),
 }
 

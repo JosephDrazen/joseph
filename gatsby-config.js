@@ -16,8 +16,33 @@ module.exports = ({
         name: `sections`,
         path: `${__dirname}/src/sections`,
       },
+
     },
-    `gatsby-plugin-mdx`,
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        gatsbyRemarkPlugins: [ `gatsby-remark-images` ],
+        plugins: [ `gatsby-remark-images` ],
+      }
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 100,
+            },
+          },
+        ],
+      },
+    },
+
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-emotion`,
