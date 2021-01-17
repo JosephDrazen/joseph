@@ -14,7 +14,7 @@ type ProjectCardProps = {
 const ProjectCard = ({ link, title, children }: ProjectCardProps) => {
   return (
       <div>
-        <Card variant='outlined' style={{width: 250, height: 250, position: 'absolute'}}>
+        <Card variant='outlined' style={{width: 270, height: 270, position: 'absolute', color: '#fff', backgroundColor: '#2c364a'}}>
           <CardContent>
             <Typography variant='h5' style={{textTransform: 'uppercase'}}>
               {title}

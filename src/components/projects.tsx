@@ -6,7 +6,7 @@ import Content from "../elements/content"
 // @ts-ignore
 import ProjectsMDX from "../sections/projects"
 
-const Projects = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
+const Projects = ({ offset, factor = 0 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
       bg="#000"

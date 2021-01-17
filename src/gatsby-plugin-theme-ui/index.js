@@ -6,7 +6,7 @@ const theme = merge(tailwind, {
   useCustomProperties: true,
   colors: {
     primary: '#4DA8DA',
-    secondary: tailwind.colors.indigo[6],
+    secondary: '#4DA8DA',
     text: tailwind.colors.gray[3],
     heading: tailwind.colors.white,
     background: `#141821`,
@@ -15,7 +15,7 @@ const theme = merge(tailwind, {
     icon_brightest: tailwind.colors.white,
     icon_darker: tailwind.colors.gray[7],
     icon_darkest: tailwind.colors.gray[8],
-    icon_red: tailwind.colors.red[6],
+    icon_red: '#4DA8DA',
     icon_blue: tailwind.colors.blue[6],
     icon_orange: '#4DA8DA',
     icon_yellow: '#4DA8DA',

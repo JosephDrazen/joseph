@@ -13,7 +13,7 @@ type ValuesCardProps = {
 const ValuesCard = ({ title, children, imga }: ValuesCardProps) => {
   return (
       <div>
-        <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute'}}>
+        <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute', backgroundColor: '#2c364a'}}>
           <CardContent>
             <Grid container spacing={1}>
               <Grid item xs={7}>

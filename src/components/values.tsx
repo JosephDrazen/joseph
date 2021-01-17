@@ -16,23 +16,21 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
 
-const Values = ({ offset, factor = 3 }: { offset: number; factor?: number }) => (
+const Values = () => (
   <React.Fragment>
     <br />
   <Grid container>
     <div id='values'/>
     <Grid item xs={4}>
-    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute'}}>
+    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute', backgroundColor:'#2c364a', color:'#fff'}}>
           <CardContent>
             <Grid container spacing={1}>
-              <Grid item xs={7}>
+              <Grid item xs={10}>
                 <Typography variant='h6' style={{textTransform: 'uppercase'}}>
-                Dog Driven Development
+                Dog-Driven Development
                 </Typography>
-                <img style={{width: 150}} src={dog}></img>
-
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={10}>
                 <Typography variant='body2'>
                 The dollars I earn while coding help put food in my dog's bowl. 
                 </Typography>
@@ -42,17 +40,15 @@ const Values = ({ offset, factor = 3 }: { offset: number; factor?: number }) => 
         </Card>
     </Grid>
     <Grid item xs={4}>
-    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute'}}>
+    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute', backgroundColor:'#2c364a', color:'#fff'}}>
           <CardContent>
             <Grid container spacing={1}>
-              <Grid item xs={7}>
+              <Grid item xs={10}>
                 <Typography variant='h6' style={{textTransform: 'uppercase'}}>
                 LEARNing THROUGH CHALLENGE AND CHANGE
                 </Typography>
-                <img style={{width: 150, marginTop: -40}} src={learn}></img>
-
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={10}>
                 <Typography variant='body2'>
                 To be a constant learner, I believe in challenging myself and my team to explore new ways of thinking and doing.  
                 </Typography>
@@ -62,17 +58,15 @@ const Values = ({ offset, factor = 3 }: { offset: number; factor?: number }) => 
         </Card>
     </Grid>
     <Grid item xs={4}>
-    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute'}}>
+    <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute', backgroundColor:'#2c364a', color:'#fff'}}>
           <CardContent>
             <Grid container spacing={1}>
-              <Grid item xs={7}>
+              <Grid item xs={10}>
                 <Typography variant='h6' style={{textTransform: 'uppercase'}}>
                 Acting like an Owner
                 </Typography>
-                <img style={{width: 150}} src={lead}></img>
-
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={10}>
                 <Typography variant='body2'>
                 Acting like an owner allows for more accountability, an entrepreneurial spirit, and more meaningful work.  
                 </Typography>

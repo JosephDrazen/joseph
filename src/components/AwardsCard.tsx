@@ -19,8 +19,7 @@ const AwardsCard = ({ title, children, name, date }: AwardsCardProps) => {
       <CardActionArea>
         <Card variant='outlined' style={{width: 550, height: 300, 
           position: 'absolute',
-          backgroundImage: 'linear-gradient(to right, #4DA8DA, #add7f0)',
-          backgroundColor: '#4DA8DA'
+          color: '#fff', backgroundColor: '#2c364a'
         }}
         >
           <CardContent>
