@@ -2,7 +2,11 @@
 const Footer = () => {
 
   return (
-    <div>Made with love in Halifax, NS</div>
+    <div style={{marginTop: 200}}>
+      <p>Made with ❤️ in Halifax, NS</p>
+      <p style={{fontSize: 12, textAlign: 'center'}}>Joseph Malovic &copy; 2021</p>
+    </div>
+ 
   )
 }
 

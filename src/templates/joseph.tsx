@@ -10,12 +10,13 @@ import Contact from "../components/contact"
 
 const Joseph = () => (
   <Layout>
-    <Parallax pages={5}>
-      <Hero offset={0} factor={0} />
-      <About offset={1} factor={0} />
-      <Projects offset={2} factor={0} />
-      <Awards offset={3} factor={0}/>
-      <Testimonies offset={4} factor={0}/>
+    <Parallax pages={6}>
+      <Hero offset={0} factor={0}/>
+      <About offset={1} factor={1} />
+      <Projects offset={2} factor={1} />
+      <Awards offset={3} factor={1} />
+      <Testimonies offset={4} factor={1} />
+      <Contact offset={5} factor={1} />
     </Parallax>
   </Layout>
 )

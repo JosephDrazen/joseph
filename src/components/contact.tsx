@@ -9,6 +9,7 @@ import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Footer from "./footer"
 // @ts-ignore
 import ContactMDX from "../sections/contact"
+import AlertDialog from "./dialog.tsx"
 
 const InnerWave = styled.div`
   path {
@@ -39,10 +40,14 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
+        <AlertDialog />
       </Inner>
-      <Footer />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer/>
     </Content>
-    
   </div>
 )
 

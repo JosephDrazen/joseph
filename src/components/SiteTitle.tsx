@@ -64,23 +64,23 @@ export default function SiteTitle() {
             <Grid 
             container 
             direction='row'>
-              <Grid item xs={2} className={classes.siteNav}>
+              {/* <Grid item xs={2} className={classes.siteNav}>
                 <Button className={classes.buttons} href="#about" variant="contained">About</Button>
               </Grid>
               <Grid item xs={2} className={classes.siteNav}>
               <Button className={classes.buttons}  href="#projects" variant="contained">Projects</Button>
-              </Grid>
+              </Grid> */}
               <Grid item style={{margin: '0 auto'}}
               className={classes.siteTitle}>
                   jm
               </Grid>
-              <Grid 
+              {/* <Grid 
               item xs={2} className={classes.siteNav}>
               <Button className={classes.buttons}  href="#awards" variant="contained">Awards</Button>
               </Grid>
               <Grid item xs={2} className={classes.siteNav}>
               <Button className={classes.buttons} href="#testimony" variant="contained">Testimonies</Button>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         

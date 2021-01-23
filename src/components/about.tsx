@@ -25,10 +25,9 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     />
     <Content speed={0.4} offset={offset} factor={factor}>
         <Inner>
-        <div id='projects'/>
           <AboutMDX />
         <Typography variant='h5'>
-        Spot me at CU Blueprint as a Product Designer. I like to tinker with code on  
+        Spot me at CU Blueprint as a Frontend Developer. I like to tinker with code on  
         <IconButton color='inherit' style={{padding: 8}} href='https://github.com/JosephDrazen' target='_blank'>
           <GitHubIcon/>
         </IconButton>, 
@@ -46,4 +45,4 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   </div>
 )
 
-export default About
+export default About;

@@ -20,7 +20,6 @@ const Values = () => (
   <React.Fragment>
     <br />
   <Grid container>
-    <div id='values'/>
     <Grid item xs={4}>
     <Card variant='outlined' style={{width: 350, height: 250, position: 'absolute', backgroundColor:'#2c364a', color:'#fff'}}>
           <CardContent>
