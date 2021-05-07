@@ -21,6 +21,14 @@ https://josephdrazen.github.io/joseph/
 - Typescript
 - Gatsby 
 
+Why did I choose these technologies? 
+
+Since I'm still in school and exploring many avenues to learn, I know I will be adding to my portfolio quite often. 
+
+I wanted to make a fast website that was modular by design to make it easier for me to update and add to it whenever needed. 
+
+React allowed me to build a fast website within a short amount of time, while Material UI gave me the tools to add user-friendly UI elements across my site quickly. Gatsby and MDx gave me the ability to turn markdown into well-structured content for my website and add to the site with ease. 
+
 ## Running locally? 
 
 ```git clone https://github.com/JosephDrazen/joseph```
